@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* PARENT CONTAINER */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+/* ALL BOX CONTAINERS */
+.box {
+    background-color: azure;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+/* MIDDLE CONTAINER */
+.five {
+
+}
